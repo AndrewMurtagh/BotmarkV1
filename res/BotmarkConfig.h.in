@@ -1,0 +1,6 @@
+
+#define Botmark_VERSION_MAJOR @Botmark_VERSION_MAJOR@
+#define Botmark_VERSION_MINOR @Botmark_VERSION_MINOR@
+#define Botmark_VERSION_PATCH @Botmark_VERSION_PATCH@
+
+#define ROOT_DIRECTORY @ROOT_DIRECTORY@

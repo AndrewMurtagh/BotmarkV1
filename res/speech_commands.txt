@@ -1,0 +1,15 @@
+Hi there, my name is robot.
+I am going to the kitchen.
+I am cleaning the table.
+Please say a command.
+Please stand in front of me.
+Please walk away.
+Excuse me.
+I'm sorry, I did not understand that.
+Can you repeat that?
+Can I help you?
+Please wave your hand.
+Is this the table?
+Is this the kitchen?
+Would you like to order?
+Where is the phone?
