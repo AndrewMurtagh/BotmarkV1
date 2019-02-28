@@ -349,19 +349,20 @@ installGmapping() {
 
 }
 
-# installBoost
-# installCollada
-# installOpenSceneGraph
-# installFCL
+
+installBoost
+installCollada
+installOpenSceneGraph
+installFCL
 installOpenRAVE
-# installMRPT
-# installCaffe
-# installSphinxBase
-# installPocketSphinx
-# installOpenCV
-# installFestival
-# installPCL
-# installGmapping
+installMRPT
+installCaffe
+installSphinxBase
+installPocketSphinx
+installOpenCV
+installFestival
+installPCL
+installGmapping
 
 
 

@@ -15,7 +15,7 @@ The Botmark benchmark was developed in the Robotics And Innovation Lab (RAIL), T
 
 6. Object recognition.
 
-7. Motion planning.
+7. Motion planning (this was not included in the paper).
 
 8. Path planning.
 
@@ -30,7 +30,7 @@ The following comands will achieve this:
 
 `git clone https://github.com/AndrewMurtagh/BotmarkV1.git`
 
-2. Check what dependencies are already installed on your system and install the remaining ones with the following script.
+2. Check what dependencies are already installed on your system and install the remaining ones with the following script, this will install a lot of libraries so please check first.
 
 ```
 cd scripts/
