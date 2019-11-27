@@ -1,6 +1,5 @@
-# The Botmark Benchmark v1
+# The Botmark Benchmark V1
 The Botmark benchmark was developed in the Robotics And Innovation Lab (RAIL), Trinity College Dublin as a tool for comparing and benchmarking computer platforms for their use in service robotics. This is done by running 8 workloads representative of the types of worklaods typically found in service robotics. The benchmark is available on Github under the Creative Commons (Attribution-NonCommercial-ShareAlike 4.0 International) License. Each of the workloads are compiled as a seperate executable and the results are appended to the results file at `res/results.txt`.
-
 
 ## Workloads
 1. Person tracking.
@@ -49,6 +48,16 @@ cd scripts/
 
 `. run_benchmark.sh`
 
+
+Alternatively, you can run the benchmark in a Docker container by:
+
+1. Building the image
+
+`sudo docker build -t botmark:latest .`
+
+2. Running the container
+
+`sudo docker run --net=host -it -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=unix$DISPLAY --device /dev/snd botmark:latest /bin/bash`
 
 
 

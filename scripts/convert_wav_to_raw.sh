@@ -24,15 +24,12 @@ fi
 for i in *; do
     if [ "${i}" != "${i%.${EXT}}" ];then
         echo "Working on File $i"
-       # sox "$i" -r 16000 --endian little -c 1 "./$DIRECTORY/${i::4}.raw"
         sox "$i" -r 16000 --endian little -c 1 "./$DIRECTORY/$i.raw"
         if [ $? -eq 0 ]
         then
         echo "Successfully converted File: $i"
         else
         echo "File \"$i\" could not be converted. Aborting!"
-        #exit 1
         fi
-    fi  
+    fi
 done
-#exit 0

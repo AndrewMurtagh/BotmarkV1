@@ -66,15 +66,15 @@ add_definitions(${PCL_DEFINITIONS})
 
 
 
-set(build_persontracking FALSE)
-set(build_speechsynthesis FALSE)
+set(build_persontracking TRUE)
+set(build_speechsynthesis TRUE)
 set(build_voicerecognition TRUE)
-set(build_slam FALSE)
-set(build_objectrecognition FALSE)
-set(build_pathplanning FALSE)
-set(build_motionplanning FALSE)
+set(build_slam TRUE)
+set(build_objectrecognition TRUE)
+set(build_pathplanning TRUE)
+set(build_motionplanning TRUE)
 set(build_facialrecognition TRUE)
-set(build_tools FALSE)
+set(build_tools TRUE)
 
 
 

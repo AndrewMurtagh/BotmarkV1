@@ -79,8 +79,8 @@ int main(int argc, const char *argv[]) {
         return -1;
     }
 
-    Ptr<FaceRecognizer> model =  createFisherFaceRecognizer();
-    model->load(FACIAL_RECOGNITION_MODEL);
+    Ptr<FaceRecognizer> model = FisherFaceRecognizer::create();
+    model->read(FACIAL_RECOGNITION_MODEL);
 
 
 
